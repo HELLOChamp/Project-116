@@ -35,8 +35,6 @@ def friend_webpage():
     age = "14"
     return render_template('friend.html' , name = name , age = age)
 
-app.run(debug = True)
-
 # add other routes, if you want
 
 
